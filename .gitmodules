@@ -1,3 +1,6 @@
 [submodule "ep2/src"]
 	path = ep2/src
 	url = https://github.com/crixo/docker-TTG
+[submodule "ep3/src"]
+	path = ep3/src
+	url = https://github.com/sabbadino/deltatre-community-meetups-session-3
