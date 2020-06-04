@@ -21,6 +21,17 @@ You can stay in contact with us and be up to date with our initiatives and event
 
     During this session we are going to walk you through the main containers concepts with a "docker workflow" hands-on. At the end of the session and with the samples shared on the dedicated [GitHub repo](https://github.com/crixo/docker-TTG), you'll be able to try to deploy in production your own application using the containers.
 
+    Recorded session: [YouTube](https://www.youtube.com/watch?v=b9Qk2LMXs_Y) | [Facebook](https://www.facebook.com/108960177483382/videos/265351014815975/)
+
+3. *Kubernetes basics* (June 3rd, 2020)  
+    by *Enrico Sabbadin* (Deltatre), supported by *Diego D'Agostini* (Deltatre)
+
+    The management of container-based applications requires tools that take care of running the necessary images, ensuring the necessary connectivity at the network network level and ensuring that the system status is always the desired one. This type of instruments are called "orchestrators" and Kubernetes (k8s) is currently the de facto standard. This session covers the basic concepts of k8s: clusters, deployments, services and ingresses. Some demos will show how to interact and manage a cluster via kubectl, helm and the visual Dashboard. Storage and security will be explored in dedicated sessions.
+
+    Demos available in Enrico's [GitHub repo](https://github.com/sabbadino/deltatre-community-meetups-session-3).
+
+    Recorded session: [YouTube](https://youtu.be/zjuy6wLXsFY) | [Facebook](https://www.facebook.com/108960177483382/videos/747008249375581/)
+
 ## Project Organization
 
     ├── LICENSE
@@ -28,13 +39,13 @@ You can stay in contact with us and be up to date with our initiatives and event
     |
     |── ep1                <- Resources from Episode 1 (The basics)
     └── ep2                <- Resources from Episode 2 (Docker in Action)
+    |  └── src*
+    └── ep3                <- Resources from Episode 3 (Kubernetes basics)
        └── src*
 
 *It is a submodule, pointing to the original repository managed by the speaker(s) directly.
 
 ## Setup a local copy
-
-If not already configured, you need to install/enable [Git LFS support](https://git-lfs.github.com/) on your machine.
 
 1. Clone this repository in a local folder
 2. Clone and initialize all submodules (recursively)
