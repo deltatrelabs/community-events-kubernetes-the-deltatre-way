@@ -4,3 +4,9 @@
 [submodule "ep3/src"]
 	path = ep3/src
 	url = https://github.com/sabbadino/deltatre-community-meetups-session-3
+[submodule "ep4/src-security"]
+	path = ep4/src-security
+	url = https://github.com/maxgio92/k8s-aaca-security-topics-session.git
+[submodule "ep4/src-advanced"]
+	path = ep4/src-advanced
+	url = https://github.com/CarloAlbertoS/KDW-AdvancedK8S

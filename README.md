@@ -4,7 +4,7 @@ This is the reference repository for the online community event series **Kuberne
 
 Here you can find source codes, slides, and any other material the speakers showed and shared during each live event. It will be updated throughout the series.
 
-You can stay in contact with us and be up to date with our initiatives and events by following us on your favourite social networks: 
+You can stay in contact with us and be up to date with our initiatives and events by following us on your favourite social networks:  
 [Youtube](https://www.youtube.com/channel/UCVuzquhKvLgLWHE1MGyXXtw?view_as=subscriber) | [Facebook](https://www.facebook.com/pg/Deltatre-Innovation-Lab-108960177483382/) |  [Twitch](https://www.twitch.tv/dila_social) | [Eventbrite](https://www.eventbrite.it/o/deltatre-innovation-lab-28573599825)
 
 ## List of episodes
@@ -19,7 +19,9 @@ You can stay in contact with us and be up to date with our initiatives and event
 2. *Docker In Action* (May 25th, 2020)  
     by *Cristiano Degiorgis* (Deltatre), supported by *Matteo Savoré* (Deltatre)
 
-    During this session we are going to walk you through the main containers concepts with a "docker workflow" hands-on. At the end of the session and with the samples shared on the dedicated [GitHub repo](https://github.com/crixo/docker-TTG), you'll be able to try to deploy in production your own application using the containers.
+    During this session we are going to walk you through the main containers concepts with a "docker workflow" hands-on. At the end of the session and with the samples shared on the dedicated GitHub repo, you'll be able to try to deploy in production your own application using the containers.
+
+    Demos available in Cristiano's [GitHub repo](https://github.com/crixo/docker-TTG).
 
     Recorded session: [YouTube](https://www.youtube.com/watch?v=b9Qk2LMXs_Y) | [Facebook](https://www.facebook.com/108960177483382/videos/265351014815975/)
 
@@ -32,16 +34,29 @@ You can stay in contact with us and be up to date with our initiatives and event
 
     Recorded session: [YouTube](https://youtu.be/zjuy6wLXsFY) | [Facebook](https://www.facebook.com/108960177483382/videos/747008249375581/)
 
+4. *Kubernetes advanced topics & Kind* (June 8th, 2020)  
+    by *Carlo Alberto Scaglia* (Deltatre) and *Massimiliano Giovagnoli* (Kloudops)
+
+    After fundamental concepts of orchestration on Kubernetes in previous sessions, in this talk we will analyze in detail how to configure the Pods to adapt them to the needs of our applications and how to configure a cluster to apply the right Security and protection rules. In the first part of the episode we will face the concepts of Authentication, Access Control, Confidentiality and Auditing, discussing for each the best approach to control communication and permissions both from outside and within the cluster. In the second part, instead, we will focus on how to properly segregate and assign resources and volumes to the Pods and what services are made available by the system to monitor and manage the life of applications. We will also see how, inside Kubernetes, it is possible to integrate static ("stateful") applications inside the Pods with a practical demonstration of creating an automated MongoDB replicaset using Kind.
+
+    Advanced topics demos available in Carlo Alberto's [GitHub repo](https://github.com/CarloAlbertoS/KDW-AdvancedK8S).  
+    Security topics demos available in Massimiliano Giovagnoli's [GitHub repo](https://github.com/maxgio92/k8s-aaca-security-topics-session).
+
+    Recorded session: [YouTube](https://youtu.be/jhkYvEgNT4A) | [Facebook](https://www.facebook.com/108960177483382/videos/183960489615097/)
+
 ## Project Organization
 
     ├── LICENSE
     ├── README.md          <- The top-level README for developers using this project.
     |
     |── ep1                <- Resources from Episode 1 (The basics)
-    └── ep2                <- Resources from Episode 2 (Docker in Action)
+    |── ep2                <- Resources from Episode 2 (Docker in Action)
     |  └── src*
-    └── ep3                <- Resources from Episode 3 (Kubernetes basics)
-       └── src*
+    |── ep3                <- Resources from Episode 3 (Kubernetes basics)
+    |  └── src*
+    └── ep4                <- Resources from Episode 4 (Kubernetes advanced topics)
+       |── src-advanced*
+       └── src-security*
 
 *It is a submodule, pointing to the original repository managed by the speaker(s) directly.
 
