@@ -10,3 +10,12 @@
 [submodule "ep4/src-advanced"]
 	path = ep4/src-advanced
 	url = https://github.com/CarloAlbertoS/KDW-AdvancedK8S
+[submodule "ep5/src-ci-cd-azure-devops"]
+	path = ep5/src-ci-cd-azure-devops
+	url = https://github.com/raunodepasquale/kubernetes-CI-CD-presentation
+[submodule "ep5/src-gitlab-demo-terraform"]
+	path = ep5/src-gitlab-demo-terraform
+	url = https://github.com/sparkfabrik/demo-gitlab-ci-cd-terraform
+[submodule "ep5/src-gitlab-demo-app"]
+	path = ep5/src-gitlab-demo-app
+	url = https://github.com/sparkfabrik/demo-gitlab-ci-cd-app

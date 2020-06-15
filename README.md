@@ -4,8 +4,7 @@ This is the reference repository for the online community event series **Kuberne
 
 Here you can find source codes, slides, and any other material the speakers showed and shared during each live event. It will be updated throughout the series.
 
-You can stay in contact with us and be up to date with our initiatives and events by following us on your favourite social networks:  
-[Youtube](https://www.youtube.com/channel/UCVuzquhKvLgLWHE1MGyXXtw?view_as=subscriber) | [Facebook](https://www.facebook.com/pg/Deltatre-Innovation-Lab-108960177483382/) |  [Twitch](https://www.twitch.tv/dila_social) | [Eventbrite](https://www.eventbrite.it/o/deltatre-innovation-lab-28573599825)
+You can stay in contact with us and be up to date with our initiatives and events by following us on your favourite social networks: [Youtube](https://www.youtube.com/channel/UCVuzquhKvLgLWHE1MGyXXtw?view_as=subscriber) | [Facebook](https://www.facebook.com/pg/Deltatre-Innovation-Lab-108960177483382/) |  [Twitch](https://www.twitch.tv/dila_social) | [Eventbrite](https://www.eventbrite.it/o/deltatre-innovation-lab-28573599825)
 
 ## List of episodes
 
@@ -44,6 +43,18 @@ You can stay in contact with us and be up to date with our initiatives and event
 
     Recorded session: [YouTube](https://youtu.be/jhkYvEgNT4A) | [Facebook](https://www.facebook.com/108960177483382/videos/183960489615097/)
 
+5. *Kubernetes CI/CD* (June 15th, 2020)  
+    by *Rauno De Pasquale* (Newesis), supported by *Marcello Testi* (Sparkfabrik)
+
+    The path we walked on took us closer to Docker and Kubernetes. In previous meetings we discovered how to create and publish an image containing our application and how this can be execute as a Container within a Pod, we have seen how to expose it through services and ingress controllers, how to manage its security and all the various settings that a Kubernetes cluster provides us to ensure their availability and access to resources such as storage and other services.
+
+    A Kubernetes cluster does not exist per se but is a platform on which to run our software solutions. With this fifth appointment we will therefore try to talk about the possible approaches about the application release and update activities. We will compare the options offered by Kubectl, Kustomize, Helm and #erraform and we will see how to integrate all this in CI/CD tools using Azure DevOps Services in order to view some examples.
+
+    Rauno's [GitHub repo](https://github.com/raunodepasquale/kubernetes-CI-CD-presentation) for slides and demo.  
+    Marcello's GitHub [repo Terraform](https://github.com/sparkfabrik/demo-gitlab-ci-cd-terraform) and [repo App](https://github.com/sparkfabrik/demo-gitlab-ci-cd-app).
+
+    Recorded session: [YouTube](https://youtu.be/5uV0UqOHBDE) | [Facebook](https://www.facebook.com/events/559485494954655/)
+
 ## Project Organization
 
     ├── LICENSE
@@ -54,9 +65,13 @@ You can stay in contact with us and be up to date with our initiatives and event
     |  └── src*
     |── ep3                <- Resources from Episode 3 (Kubernetes basics)
     |  └── src*
-    └── ep4                <- Resources from Episode 4 (Kubernetes advanced topics)
-       |── src-advanced*
-       └── src-security*
+    |── ep4                <- Resources from Episode 4 (Kubernetes advanced topics)
+    |  |── src-advanced*
+    |  └── src-security*
+    └── ep5                <- Resources from Episode 5 (Kubernetes CI/CD)
+       |── src-ci-cd-azure-devops*
+       |── src-gitlab-demo-app*
+       └── src-gitlab-demo-terraform*
 
 *It is a submodule, pointing to the original repository managed by the speaker(s) directly.
 
