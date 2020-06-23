@@ -19,3 +19,6 @@
 [submodule "ep5/src-gitlab-demo-app"]
 	path = ep5/src-gitlab-demo-app
 	url = https://github.com/sparkfabrik/demo-gitlab-ci-cd-app
+[submodule "ep6/src"]
+	path = ep6/src
+	url = https://github.com/crixo/k8s-as-backend

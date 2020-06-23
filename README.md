@@ -55,23 +55,32 @@ You can stay in contact with us and be up to date with our initiatives and event
 
     Recorded session: [YouTube](https://youtu.be/5uV0UqOHBDE) | [Facebook](https://www.facebook.com/events/559485494954655/)
 
+6. *Kubernetes CRD & Operators* (June 22nd, 2020)  
+    by *Cristiano Degiorgis* (Deltatre), supported by *Gianluca Arbezzano* (Packet)
+
+    During this session we'll discuss about the Kubernetes extensibility through the Custom Resource Definitions. We'll tackle this topic from two complementary sides: a challenge demo project born to investigate the CRD usage with a non-conventional scope and a standard CRD usage aimed to create an operator to deploy and monitor the project itself. If you survive to the russian-doll effect, at the end of the session you'll have a fair understanding about the CRD potentiality and the operator pattern.
+
+    Cristiano's [GitHub repo](https://github.com/crixo/k8s-as-backend) for demo and presented content.
+
 ## Project Organization
 
     ├── LICENSE
     ├── README.md          <- The top-level README for developers using this project.
     |
-    |── ep1                <- Resources from Episode 1 (The basics)
-    |── ep2                <- Resources from Episode 2 (Docker in Action)
+    ├── ep1                <- Resources from Episode 1 (The basics)
+    ├── ep2                <- Resources from Episode 2 (Docker in Action)
     |  └── src*
-    |── ep3                <- Resources from Episode 3 (Kubernetes basics)
+    ├── ep3                <- Resources from Episode 3 (Kubernetes basics)
     |  └── src*
-    |── ep4                <- Resources from Episode 4 (Kubernetes advanced topics)
-    |  |── src-advanced*
+    ├── ep4                <- Resources from Episode 4 (Kubernetes advanced topics)
+    |  ├── src-advanced*
     |  └── src-security*
-    └── ep5                <- Resources from Episode 5 (Kubernetes CI/CD)
-       |── src-ci-cd-azure-devops*
-       |── src-gitlab-demo-app*
-       └── src-gitlab-demo-terraform*
+    ├── ep5                <- Resources from Episode 5 (Kubernetes CI/CD)
+    |  ├── src-ci-cd-azure-devops*
+    |  ├── src-gitlab-demo-app*
+    |  └── src-gitlab-demo-terraform*
+    └── ep6                <- Resources from Episode 6 (Kubernetes CRD & Operators)
+       └── src*
 
 *It is a submodule, pointing to the original repository managed by the speaker(s) directly.
 
