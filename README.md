@@ -62,6 +62,8 @@ You can stay in contact with us and be up to date with our initiatives and event
 
     Cristiano's [GitHub repo](https://github.com/crixo/k8s-as-backend) for demo and presented content.
 
+    Recorded session: [YouTube](https://youtu.be/8YNH1QZGdMM)  | [Facebook](https://www.facebook.com/108960177483382/videos/314403179951935/)
+
 ## Project Organization
 
     ├── LICENSE
